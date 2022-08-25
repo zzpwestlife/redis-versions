@@ -31,7 +31,7 @@ redis-versions_redis7_1   docker-entrypoint.sh redis ...   Up      0.0.0.0:63797
 docker-compose exec redis5 redis-cli
 127.0.0.1:6379> ping
 PONG
-127.0.0.1:6379>exit
+127.0.0.1:6379> exit
 ```
 
 或者使用诸如 redis desktop manager 的 GUI 工具进行连接使用.
